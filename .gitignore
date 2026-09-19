@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+*.whl
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+
+# Databases & Cache
+*.db
+*.sqlite
+*.sqlite3
+mlflow.db
+neurostage.db
+
+# Machine Learning Artifacts & Checkpoints
+runs/checkpoints/
+*.pt
+*.pth
+*.onnx
+*.bin
+results/
+uploads/
+mlruns/
+mlartifacts/
+
+# Large Datasets & Raw/Processed Signals
+data/
+*.edf
+*.h5
+*.hdf5
+*.fif
+*.set
+
+# Node.js & Next.js Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env.local
+frontend/.env.*.local
+frontend/*.tsbuildinfo
+
+# Testing & Code Quality Tools
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage.xml
+
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# IDEs & Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
